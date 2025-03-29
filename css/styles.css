@@ -500,4 +500,27 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-media-discription {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  max-width: 208px;
+}
+
+.footer-logo-block {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
 /* -----------------------------FOOTER--------------------------- */
