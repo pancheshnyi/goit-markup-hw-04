@@ -268,6 +268,7 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .benefits-logo-svg {
@@ -328,6 +329,29 @@ img {
   padding: 32px 0px;
 }
 
+.team-logo-block {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  /* align-items: ; */
+}
+
+.team-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50px;
+}
+
+.team-logo-svg {
+  display: flex;
+  align-items: center;
+  fill: white;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -352,6 +376,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  /* ------------------------- */
+  /* margin-bottom: 8px; */
+  /* ---------------------------- */
 }
 
 /* ------------------------------TEAM--------------------------- */
