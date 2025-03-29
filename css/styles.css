@@ -551,4 +551,9 @@ img {
   gap: 16px;
   justify-content: center;
 }
+
+.footer-logo-item:hover,
+.footer-logo-item:focus {
+  background-color: #31d0aa;
+}
 /* -----------------------------FOOTER--------------------------- */
