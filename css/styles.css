@@ -272,13 +272,13 @@ img {
   margin-bottom: 8px;
 }
 
-.benefits-logo-svg {
-  /* display: flex;
+/* .benefits-logo-svg {
+  display: flex;
   align-content: center;
-  justify-content: center; */
-}
+  justify-content: center;
+} */
 
-. .benefits-item {
+.benefits-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -549,6 +549,8 @@ img {
 .footer-logo-block {
   display: flex;
   gap: 16px;
+  width: 100%;
+  height: 100%;
   justify-content: center;
 }
 
