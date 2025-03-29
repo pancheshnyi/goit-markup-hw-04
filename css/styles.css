@@ -336,8 +336,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  /* padding-bottom: 32px; */
-  /* align-items: ; */
 }
 
 .team-logo-item {
@@ -477,6 +475,7 @@ img {
 .footer {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-description {
@@ -529,6 +528,22 @@ img {
   justify-content: flex-start;
   align-content: center;
   max-width: 208px;
+}
+
+.footer-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50px;
+}
+
+.footer-logo-svg {
+  display: flex;
+  align-items: center;
+  fill: #f4f4fd;
 }
 
 .footer-logo-block {
