@@ -259,7 +259,24 @@ img {
   overflow: hidden;
 }
 
-.benefits-item {
+.benefits-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.benefits-logo-svg {
+  /* display: flex;
+  align-content: center;
+  justify-content: center; */
+}
+
+. .benefits-item {
   width: calc((100% - 72px) / 4);
 }
 
